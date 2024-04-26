@@ -29,13 +29,13 @@
 -Handling Missing Values: Missing values were identified and analyzed.
     
 ## <a name="3">Libraries Used</a>
--pandas
--numpy
--matplotlib
--seaborn
--scikit-learn
--xgboost
--imbalanced-learn
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- xgboost
+- imbalanced-learn
 
 ## <a name="4">Conclusions & Recommendations</a>
 - Logistic regression was applied as the first model.
@@ -51,5 +51,5 @@
 - If you too would like to be a part of this extremely informative and detailed Exec Programme, enroll yourself [here](https://app.upgrad.com/4Xxq/4zgb85pa) and feel free to use my referral code (ZlrGO7) to avail high fee waivers.
 
 ## <a name="6">Contact</a>
-- Created by the [owner](https://github.com/Kris3317/) of this Repo, surprise.
+- Created by the [owner](https://github.com/Kris3317/) of this Repo, duh.
 - Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/krismichaeldsilva/)
