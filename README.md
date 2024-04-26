@@ -38,13 +38,16 @@
 - imbalanced-learn
 
 ## <a name="4">Conclusions & Recommendations</a>
-- Logistic regression was applied as the first model.
-- Hyperparameter tuning was performed using GridSearchCV to find the best parameters.
-- The logistic regression model was evaluated using various metrics like AUC, accuracy, precision, recall, F1 score, and root mean squared error (RMS).
-- XGBoost classifier was applied as another model.
-- Hyperparameter tuning was performed using RandomizedSearchCV.
+- Logistic regression was applied as the first model. Hyperparameter tuning was performed using GridSearchCV to find the best parameters. The logistic regression model was evaluated using various metrics like AUC, accuracy, precision, recall, F1 score, and root mean squared error (RMS).
+- XGBoost classifier was applied as another model. Hyperparameter tuning was performed using RandomizedSearchCV.
 - Since the primary concern is to ensure that positives (e.g., identifying customers who will churn) are correctly classified, rather than focusing on minimizing false negatives, then precision becomes the most important metric. Precision measures the proportion of true positive predictions out of all positive predictions made by the model. In other words, it evaluates the model's ability to avoid false positives. A higher precision indicates fewer false positives, meaning that the model is better at correctly identifying customers who will churn without mistakenly classifying too many non-churners as churners.
 - Therefore, in this scenario, where the emphasis is on getting the positives right, the model with the highest precision would be considered the best choice and therefore we can proceed with the XGBoost model with the hyperparameters seen above.
+- The most important features that can help with identifiying churn are:
+ * Average Revenue per user
+ * All kind of calls within the same operator network in minutes of usage in the latest month
+ * All kind of calls within the same operator network in minutes of usage in the month previous to the latest month
+ * Local outgoing calls within same telecom circle to the operator in minutes of usage
+ * Indicates that customer is in roaming zone during the outgoing call in minutes of usage
 
 ## <a name="5">Acknowledgements</a>
 - This project is a part of the Executive PG Programme in Machine Learning & AI curated by upGrad.
